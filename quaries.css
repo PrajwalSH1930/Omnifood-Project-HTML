@@ -148,6 +148,7 @@
   .logo-col,
   .address-col {
     grid-column: span 3;
+    gap:12px;
   }
 }
 @media (max-width: 34em) {
@@ -201,6 +202,9 @@
     grid-row: 1;
   }
   .section-cta {
-    padding: auto;
+    padding: 0;
+  }
+  .complete:after {
+    right: -25%;
   }
 }
