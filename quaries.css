@@ -200,4 +200,7 @@
     height: 320px;
     grid-row: 1;
   }
+  .section-cta {
+    padding: 12px 12px 12px 12px;
+  }
 }
